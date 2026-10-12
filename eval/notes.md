@@ -1,6 +1,10 @@
-\# Baseline
+| Configuration | recall@5 | Fidélité | Refus |
 
-\- Question EN "How do I run background tasks?" : réponse correcte, citations OK, 1471 tokens entrée / 237 sortie
+|---|---|---|---|
 
-\- Question FR "Comment gérer les tâches en arrière-plan ?" : retrieval raté (page background-tasks absente du top 5)
+| Baseline (300 mots, e5-small, vectoriel) | 92,6 % (25/27) | 5/5 | 5/5 |
+
+
+
+Limites : fidélité mesurée sur 5 questions seulement ; juge = même modèle que le générateur (gemini-3.5-flash-lite).
 
