@@ -42,6 +42,8 @@
 
 \- bge-m3 : +3,7 pts facile, +20 pts fr, 0 sur hard\_en. Le seul raté facile (OAuth2) est une réponse valable : métrique trop stricte. Coût : 22 min d'indexation CPU, modèle \~2,3 Go.
 
+\- hard\_en (3 ratés avec bge-m3) : CORS, dependencies, TestClient. La question n'a aucun mot commun avec la page attendue : vrai échec sémantique, pas de métrique trop stricte. BM25 peu utile ; pistes : reranker ou réécriture de requête.
+
 
 
 \## Limites
