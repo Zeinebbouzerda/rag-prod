@@ -1,0 +1,37 @@
+{"question": "How do I declare a query parameter with a default value?", "reponse_attendue": "Declare it as a function parameter that is not in the path, with a default value.", "source_attendue": "tutorial/query-params.md", "type": "answerable"}
+{"question": "How do I declare a path parameter with a type?", "reponse_attendue": "Use the same syntax as Python format strings and add a type annotation to the function parameter.", "source_attendue": "tutorial/path-params.md", "type": "answerable"}
+{"question": "How do I declare a request body with Pydantic?", "reponse_attendue": "Create a Pydantic model class and declare it as a parameter of the path operation function.", "source_attendue": "tutorial/body.md", "type": "answerable"}
+{"question": "How can I add CORS to my application?", "reponse_attendue": "Add CORSMiddleware with the allowed origins.", "source_attendue": "tutorial/cors.md", "type": "answerable"}
+{"question": "How do I run a task after returning a response?", "reponse_attendue": "Use BackgroundTasks and add_task.", "source_attendue": "tutorial/background-tasks.md", "type": "answerable"}
+{"question": "How do I upload files?", "reponse_attendue": "Declare a parameter of type File or UploadFile.", "source_attendue": "tutorial/request-files.md", "type": "answerable"}
+{"question": "How do I read form data?", "reponse_attendue": "Use Form parameters; this requires python-multipart.", "source_attendue": "tutorial/request-forms.md", "type": "answerable"}
+{"question": "How do I return an HTTP error to the client?", "reponse_attendue": "Raise an HTTPException with a status code and detail.", "source_attendue": "tutorial/handling-errors.md", "type": "answerable"}
+{"question": "How do I read a header from the request?", "reponse_attendue": "Declare a parameter with Header.", "source_attendue": "tutorial/header-params.md", "type": "answerable"}
+{"question": "How do I read a cookie?", "reponse_attendue": "Declare a parameter with Cookie.", "source_attendue": "tutorial/cookie-params.md", "type": "answerable"}
+{"question": "How do I limit the response fields with a response model?", "reponse_attendue": "Use the response_model parameter in the path operation decorator.", "source_attendue": "tutorial/response-model.md", "type": "answerable"}
+{"question": "How do I set the status code of a response?", "reponse_attendue": "Use the status_code parameter in the path operation decorator.", "source_attendue": "tutorial/response-status-code.md", "type": "answerable"}
+{"question": "How do I add validation constraints to a query parameter, like max length?", "reponse_attendue": "Use Query with parameters like max_length.", "source_attendue": "tutorial/query-params-str-validations.md", "type": "answerable"}
+{"question": "How do I validate a path parameter with greater than or less than?", "reponse_attendue": "Use Path with gt, ge, lt, le.", "source_attendue": "tutorial/path-params-numeric-validations.md", "type": "answerable"}
+{"question": "How do I use dependency injection?", "reponse_attendue": "Declare a function and use Depends in the parameters.", "source_attendue": "tutorial/dependencies/index.md", "type": "answerable"}
+{"question": "How do I serve static files?", "reponse_attendue": "Mount StaticFiles on a path.", "source_attendue": "tutorial/static-files.md", "type": "answerable"}
+{"question": "How do I write tests for my application?", "reponse_attendue": "Use TestClient.", "source_attendue": "tutorial/testing.md", "type": "answerable"}
+{"question": "How do I set the title and description of my API?", "reponse_attendue": "Pass metadata parameters when creating the FastAPI app.", "source_attendue": "tutorial/metadata.md", "type": "answerable"}
+{"question": "How do I add a custom middleware?", "reponse_attendue": "Use the @app.middleware('http') decorator on a function.", "source_attendue": "tutorial/middleware.md", "type": "answerable"}
+{"question": "How do I split my application into multiple files?", "reponse_attendue": "Use APIRouter.", "source_attendue": "tutorial/bigger-applications.md", "type": "answerable"}
+{"question": "How do I connect to a SQL database?", "reponse_attendue": "Use SQLModel with an engine and a session dependency.", "source_attendue": "tutorial/sql-databases.md", "type": "answerable"}
+{"question": "How do I add OAuth2 password authentication?", "reponse_attendue": "Use OAuth2PasswordBearer.", "source_attendue": "tutorial/security/first-steps.md", "type": "answerable"}
+{"question": "How do I define nested models in a request body?", "reponse_attendue": "Use a Pydantic model as the type of an attribute of another model.", "source_attendue": "tutorial/body-nested-models.md", "type": "answerable"}
+{"question": "How do I add extra validation inside a Pydantic model field?", "reponse_attendue": "Use Field with validation parameters.", "source_attendue": "tutorial/body-fields.md", "type": "answerable"}
+{"question": "How do I declare multiple body parameters?", "reponse_attendue": "Declare several Pydantic model parameters, or use Body.", "source_attendue": "tutorial/body-multiple-params.md", "type": "answerable"}
+{"question": "How do I build a Docker image for my application?", "reponse_attendue": "Write a Dockerfile based on a Python image.", "source_attendue": "deployment/docker.md", "type": "answerable"}
+{"question": "How do I handle websockets?", "reponse_attendue": "Use the WebSocket class and a websocket route.", "source_attendue": "advanced/websockets.md", "type": "answerable"}
+{"question": "How do I deploy with Helm on Kubernetes?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I use Django ORM migrations?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I train a neural network with PyTorch?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "What is the capital of Morocco?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I configure an Nginx reverse proxy for PHP?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I use React hooks?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How to set up a MongoDB replica set?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I use pandas groupby?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How to configure Redis Sentinel?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
+{"question": "How do I write a Rust macro?", "reponse_attendue": null, "source_attendue": null, "type": "unanswerable"}
