@@ -26,6 +26,8 @@
 
 | Baseline (300 mots, e5-small, vectoriel) | 92,6 % | 70 % | 80 % | 5/5 | 5/5 |
 
+| bge-m3 (sans préfixe) | 96,3 % | 70 % | 100 % | non mesuré | non mesuré |
+
 
 
 \## Observations
@@ -37,6 +39,8 @@
 \- Raté facile 2 : "OAuth2 password authentication" : la page obtenue (simple-oauth2.md) est valable, donc métrique trop stricte.
 
 \- 3 chunks sur 5 viennent parfois de la même page : manque de diversité.
+
+\- bge-m3 : +3,7 pts facile, +20 pts fr, 0 sur hard\_en. Le seul raté facile (OAuth2) est une réponse valable : métrique trop stricte. Coût : 22 min d'indexation CPU, modèle \~2,3 Go.
 
 
 

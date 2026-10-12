@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 from search import search, client as qdrant
 
-LLM_MODEL = "gemini-3.8-flash"
+LLM_MODEL = "gemini-3.5-flash-lite"
 K = 5
 
 SYSTEM = """Tu es un assistant qui répond à des questions sur la documentation FastAPI.
